@@ -36,7 +36,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Plugin example app'),
+          title: const Text('图片选择器'),
         ),
         body: GridView.builder(
           padding: const EdgeInsets.symmetric(horizontal: 15),
