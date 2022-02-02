@@ -152,13 +152,13 @@
       "languageVersion": "2.14"
     },
     {
-      "name": "media_selector",
+      "name": "media_selector_null_safety",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.15"
     }
   ],
-  "generated": "2022-02-02T04:48:44.485120Z",
+  "generated": "2022-02-02T04:50:29.880209Z",
   "generator": "pub",
   "generatorVersion": "2.15.1"
 }

@@ -98,7 +98,7 @@ flutter_web_plugins
 2.12
 file:///Users/Mr_Leo/shijia/development/flutter/flutter_2.8.1/packages/flutter_web_plugins/
 file:///Users/Mr_Leo/shijia/development/flutter/flutter_2.8.1/packages/flutter_web_plugins/lib/
-media_selector
+media_selector_null_safety
 2.15
 file:///Users/Mr_Leo/shijia/project/media_selector/
 file:///Users/Mr_Leo/shijia/project/media_selector/lib/
