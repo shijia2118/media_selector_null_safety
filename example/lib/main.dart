@@ -1,7 +1,6 @@
 import 'dart:io';
 import 'dart:typed_data';
 
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:media_selector/media_selector.dart';
 import 'package:video_thumbnail/video_thumbnail.dart';
@@ -154,7 +153,7 @@ class _MyAppState extends State<MyApp> {
                   Align(
                     alignment: Alignment.bottomLeft,
                     child: GestureDetector(
-                      child: Image.file(File(list[index - 1].path!), width: 70, height: 70, fit: BoxFit.cover),
+                      child: Image.file(File(list[index - 1].compressPath!), width: 70, height: 70, fit: BoxFit.cover),
                       onTap: () => MediaSelector.previewPicture(selectList, index - 1),
                     ),
                   ),
@@ -193,17 +192,14 @@ class _MyAppState extends State<MyApp> {
 
   selectPictures() {
     MediaSelector.select(type: PictureMimeType.ofImage, max: max, compress: true, selectList: selectList).then((value) {
-      if (kDebugMode) {
-        print('>>>>>>compresspath>>>>$value');
-      }
-
       list.clear();
       selectList.clear();
+      list.addAll(value);
+
+      for (Media media in list) {
+        selectList.add(media.compressPath!);
+      }
       setState(() {
-        list.addAll(value);
-        for (var media in list) {
-          selectList.add(media.compressPath!);
-        }
       });
     });
   }

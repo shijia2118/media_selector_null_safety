@@ -20,6 +20,7 @@ dependencies:
 
   media_selector:
     path: ../
+#  media_selector_null_safety: 0.0.1
 
   video_thumbnail: ^0.4.3
 

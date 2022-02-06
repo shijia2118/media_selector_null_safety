@@ -65,6 +65,7 @@ public class MediaSelectorPlugin implements FlutterPlugin, MethodCallHandler,Act
   public void onAttachedToActivity(@NonNull ActivityPluginBinding binding) {
     mActivity = binding.getActivity();
     delegate = new MediaSelectorDelegate(mActivity);
+    binding.addActivityResultListener(delegate); //必须要添加这行代码,否则执行onActivityResult()无回调
   }
 
   @Override

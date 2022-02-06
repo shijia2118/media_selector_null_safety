@@ -120,6 +120,7 @@ public class MediaSelectorDelegate implements PluginRegistry.ActivityResultListe
                 list.add(map);
             }
             result.success(list);
+            return true;
         }
         return false;
     }
