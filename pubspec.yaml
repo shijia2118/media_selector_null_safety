@@ -1,6 +1,6 @@
-name: media_selector
+name: media_selector_null_safety
 description: 支持Android和IOS,从本地相册中选取图片和视频,也可以通过摄像头拍照或录制获取图片和视频.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/shijia2118/media_selector_null_safety.git
 
 environment:
