@@ -100,13 +100,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.12.11"
-  media_selector:
+  media_selector_null_safety:
     dependency: "direct main"
     description:
       path: ".."
       relative: true
     source: path
-    version: "0.0.2"
+    version: "0.0.5"
   meta:
     dependency: transitive
     description:

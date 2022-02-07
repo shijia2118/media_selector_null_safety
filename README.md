@@ -5,20 +5,24 @@
 ## 导入
 ```
 dependencies:
-  media_selector_null_safety: ^0.0.2
+  media_selector_null_safety: ^0.0.5
 ```
 
 ## 使用方法
 1.设置主题颜色
-MediaSelector.color('#449897');
+**MediaSelector.color('#449897')**;
+
 2.预览所选图片
-MediaSelector.previewPicture();
+**MediaSelector.previewPicture()**;
+
 3.预览视频
-MediaSelector.previewVideo();
+**MediaSelector.previewVideo()**;
+
 4.选择视频
-await MediaSelector.select(type: PictureMimeType.ofVideo);
+**await MediaSelector.select(type: PictureMimeType.ofVideo)**;
+
 5.选择图片
-await MediaSelector.select(type: PictureMimeType.ofImage);
+**await MediaSelector.select(type: PictureMimeType.ofImage)**;
 
 
 

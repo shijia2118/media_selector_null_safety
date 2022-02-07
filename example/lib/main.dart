@@ -2,7 +2,7 @@ import 'dart:io';
 import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
-import 'package:media_selector/media_selector.dart';
+import 'package:media_selector_null_safety/media_selector.dart';
 import 'package:video_thumbnail/video_thumbnail.dart';
 
 void main() {
@@ -199,8 +199,7 @@ class _MyAppState extends State<MyApp> {
       for (Media media in list) {
         selectList.add(media.compressPath!);
       }
-      setState(() {
-      });
+      setState(() {});
     });
   }
 }

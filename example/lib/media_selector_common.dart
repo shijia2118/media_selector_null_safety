@@ -1,7 +1,7 @@
 import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
-import 'package:media_selector/media_selector.dart';
+import 'package:media_selector_null_safety/media_selector.dart';
 
 class MediaSelectorCommon extends StatefulWidget {
   final bool isSelectVideo;

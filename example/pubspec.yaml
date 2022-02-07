@@ -18,7 +18,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  media_selector:
+  media_selector_null_safety:
     path: ../
 #  media_selector_null_safety: 0.0.1
 
