@@ -1,9 +1,9 @@
 #
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html.
-# Run `pod lib lint media_selector.podspec` to validate before publishing.
+# Run `pod lib lint edia_selector_null_safety.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'media_selector'
+  s.name             = 'media_selector_null_safety'
   s.version          = '0.0.1'
   s.summary          = 'A new Flutter project.'
   s.description      = <<-DESC
